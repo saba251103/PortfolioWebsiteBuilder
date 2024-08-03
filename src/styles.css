@@ -1,0 +1,10 @@
+/* styles.css or your preferred stylesheet */
+.datePicker {
+    width: 630px;
+    height: 40px;
+    margin-left: 0;
+  }
+.buttonplacement{
+  justify-content: left;
+  justify-self: left;
+}
