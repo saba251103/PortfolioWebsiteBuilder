@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+
+@font-face {
+  font-family: 'Atteron';
+  src: url('./fonts/Atteron.ttf') format('truetype');
+}
+
+.start {
+  font-family: 'Atteron', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-size: cover;
+  background-position: center;
+}
+
+.Menu {
+  padding-left: 35%;
+  padding-right: 25%;
+}
+
+.footer {
+  background-color:#D9D9D2;
+  color: black;
+  padding: 20px 0;
+  height: 20vh;
+  width:100%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contact-info, .social-media {
+  flex: 1 1 200px;
+  margin-bottom: 20px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+}
+
